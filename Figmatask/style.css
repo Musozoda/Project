@@ -1,0 +1,410 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+
+.header {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.359)),
+    url("/hero-cover.5.jpg");
+  background-size: 100%;
+  width: auto;
+  color: white;
+}
+
+nav {
+  width: auto;
+  display: flex;
+  margin: 0 59px 13px 59px;
+  padding: 17px 143px 16px 135px;
+}
+.head {
+  
+  padding: 13px 69px 13px 0;
+}
+
+.head h3 {
+  margin-top: 5px;
+  width: auto;
+  font-family: "Montserrat", sans-serif;
+}
+
+nav ul {
+  margin: 17px 0;
+  height: 18px;
+  gap: 21px;
+  display: flex;
+  list-style: none;
+}
+
+nav ul a {
+  text-decoration: none;
+
+  color: white;
+}
+
+.head2 {
+  display: flex;
+  height: 58px;
+  margin-left: 41px;
+}
+
+.head2 button {
+  width: 182px;
+  padding: 15px 25px;
+  color: white;
+  background: #23a6f0;
+  border: none;
+  border-radius: 5px;
+  margin-left: 452px;
+}
+
+.head2 button h3 {
+  display: inline;
+  width: 113px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+}
+
+.head2 button img {
+  color: white;
+  width: 12px;
+  height: 10px;
+  margin-left: 15px;
+}
+
+.container {
+  margin: 0 195px;
+  padding: 50px 0;
+}
+.row {
+  display: flex;
+  padding: 0;
+  height: auto;
+}
+
+.colmd {
+  width: 599px;
+  height: 342px;
+  color: white;
+  margin: 134px auto 134px 0;
+}
+
+.colmd h1 {
+  margin-bottom: 35px;
+  width: 509px;
+  height: 160px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 58px;
+  font-weight: 800;
+  line-height: 80px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+}
+
+.colmd h4 {
+  margin: 35px 233px 35px 0;
+  height: 60px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+}
+
+.colmd button {
+  margin-top: 35px;
+  padding: 15px 36px;
+  border-radius: 37px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: center;
+  color: white;
+}
+
+.first {
+  background: #23a6f0;
+  border: none;
+}
+
+.second {
+  margin-left: 10px;
+  background: none;
+  border: 1px solid #ffffff;
+  color: white;
+}
+
+
+
+.carditem {
+  padding: 35px 40px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.carditem h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: center;
+  color: black;
+}
+
+.cardcontent {
+  width: auto;
+  margin-top: 35px;
+
+}
+
+form {
+  width: 100%;
+  margin: 10px 0;
+}
+
+
+label {
+  display: block;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+}
+
+label::after {
+  content: " *";
+}
+
+input {
+  background-color: rgb(232, 232, 232);
+  width: 242px;
+  margin: 10px 0;
+  padding-left: 20px;
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
+  height: 50px;
+}
+
+select {
+  background-color: rgb(232, 232, 232);
+
+  color: #737373;
+  margin: 10px 0;
+  padding-left: 20px;
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
+  width: 100%;
+  height: 50px;
+}
+
+.primary {
+  width: 100%;
+  margin-top: 35px;
+    background-color: #23a6f0;
+    height: 52px;
+    border-radius: 5px;
+    border: none;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: center;
+}
+
+.container2 {
+  width: 75%;
+  margin: auto;
+  background-color: white;
+  color: black;
+  padding: 112px 0;
+}
+
+.maincontent
+{
+  margin-bottom: 112px;
+  background-color: white;
+  color: black;
+}
+
+.maincontent h2{
+font-family: "Montserrat", sans-serif;
+font-size: 40px;
+font-weight: 700;
+line-height: 57px;
+letter-spacing: 0.20000000298023224px;
+text-align: center;
+
+}
+.maincontent p {
+  width: 473px;
+  margin: 10px auto;
+  color: #737373;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0.20000000298023224px;
+text-align: center;
+
+}
+.boxes {
+  justify-content: space-between;
+  width: 100%;
+  display: flex;
+}
+.box
+{
+  background-color: #D9EDFF;
+  width: 32%;
+}
+.flex {
+  border-radius: 10px;
+  gap: 15px;
+  display: flex;
+  background-color: #8EC2F2;
+  color: white;
+  padding: 30px 50px;
+}
+.boxes h5{
+  margin: 24px 0;
+  height: 20px;
+  display: inline;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: left;
+  
+}
+
+.continue {
+  border: 1px solid #8EC2F2;
+  border-radius: 10px;
+  background-color: white;
+  padding: 30px 50px;
+}
+
+.box h6,a{
+  color: #737373;
+  font-family: "Montserrat", sans-serif;
+font-size: 14px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0.20000000298023224px;
+text-align: left;
+
+}
+
+.continue a 
+{
+  color: #23A6F0;
+  text-decoration: none;
+}
+
+.touch {
+  padding: 0 195px;
+}
+
+.touch1 
+{
+  gap: 40px;
+  display: flex;
+  padding: 0 0 80px 0;
+}
+
+.touch1 h3 {
+  color: black;
+  font-family: "Montserrat", sans-serif;
+font-size: 24px;
+font-weight: 700;
+line-height: 32px;
+letter-spacing: 0.10000000149011612px;
+text-align: left;
+
+}
+.card1 {
+width: 238px;
+}
+
+.card1 h3{
+
+color: black;
+  margin: 25px 25px 25px 0;
+  font-family: "Montserrat", sans-serif;
+
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: left;
+  
+
+}
+.icons img{
+  margin-right: 10px;
+}
+
+
+.card1 p{
+  font-family: "Montserrat", sans-serif;
+  color: #737373;
+  margin: 25px 25px 25px 0;
+
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  
+    
+  
+  }
+
+
+.link {
+  width: auto;
+
+}
+
+
+.link a{
+  
+  text-decoration: none;
+}
+.last {
+  padding: 25px 268px;
+  width: auto;
+  background-color: #FAFAFA;
+}
+.lasth h6 {
+  width: 374px;
+  text-align: center;
+  margin: 0 auto;
+  color: #737373;
+  font-family: "Montserrat", sans-serif;
+font-size: 14px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0.20000000298023224px;
+text-align: left;
+
+}
+
+
+
+
+
+
